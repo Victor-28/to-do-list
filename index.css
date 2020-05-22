@@ -13,3 +13,12 @@ ul{
     margin: 20;
     padding: 20;
 }
+
+ul li{
+    position: relative;
+    padding: 12px 8px 12px 20px;
+    list-style-type: none;
+    background: grey;
+    font-size: 15px;
+    transition: 0.2s;
+}
