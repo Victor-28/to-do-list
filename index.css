@@ -1,0 +1,6 @@
+body {
+    magin: 8px auto;
+    min-width: 240px;
+    max-width: 50px;
+    background-color: lightseagreen;
+}
