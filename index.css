@@ -4,3 +4,12 @@ body {
     max-width: 50px;
     background-color: lightseagreen;
 }
+* {
+    box sizing: border-box;
+}
+
+ul{
+
+    margin: 20;
+    padding: 20;
+}
