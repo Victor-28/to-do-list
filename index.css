@@ -1,20 +1,22 @@
 body {
     magin: 8px auto;
-    min-width: 240px;
+    min-width: 250px;
     max-width: 50px;
+    ;
     background-color: lightseagreen;
 }
 * {
-    box sizing: border-box;
+    box-sizing: border-box;
 }
 
 ul{
 
-    margin: 20;
-    padding: 20;
+    margin: 0px;
+    padding: 0px;
 }
 
 ul li{
+    consor: pointer;
     position: relative;
     padding: 12px 8px 12px 20px;
     list-style-type: none;
