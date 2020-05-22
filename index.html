@@ -3,6 +3,7 @@
 <head>
 
     <link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>todo</title>
 </head>
@@ -11,21 +12,18 @@
     <h3 style="margin: 5px">Covid to-do-list</h3>
     <input type="text"id="my Input" placeholder="Title..." >
     <span onclick="newElement()"class="addBtn"></span>
- 
 
 </div>
 
-
-<input type="text" id="username" name="username"><br>
-
-
 <button type="button">Add Me</button>
 
-<ul>
+<ul id="myUL">
+
+    <li class="checked"> Go through Dataflair's Javascript tutorials</li>
     <li>My devotion</li>
     <li>My family</li>
     <li>Javascript</li>
-    <li>The concepts </li>
+    <li class="checked"> The concepts </li>
     <li>Understanding the Concept to build a project</li>
     <li>Practising Interview question</li>
     <li>Workshop</li>
@@ -34,7 +32,7 @@
 
 </ul>
 
-<button type="button">Do My Do</button>
+<button type="button" id="clear-list" onclick="removeAll()">Wipe Me</button
 
 
 
